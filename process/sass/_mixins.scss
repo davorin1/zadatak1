@@ -1,0 +1,8 @@
+@mixin faIcon($icon, $color, $size: 1.4rem) {
+  color: $color;
+  content: $icon;
+  display: block;
+  font-family: 'FontAwesome';
+  font-size: $size;
+  position: absolute;
+}
