@@ -2,5 +2,3 @@
 node_modules
 .tmp
 .sass-cache
-builds/mojPosao/images
-builds/mojPosao/css/style.css

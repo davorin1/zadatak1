@@ -6,3 +6,14 @@
   font-size: $size;
   position: absolute;
 }
+@mixin faIconTab($icon) {
+  @include faIcon($icon,$light-grey, 1.8rem);
+  left: 10px;
+  bottom: 5px;
+  transition:0.25s color ease;
+}
+@mixin bRadius($radius) {
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+}
